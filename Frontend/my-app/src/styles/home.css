@@ -1,0 +1,18 @@
+body {
+    background-color: #88F159;
+    font-family: Oswald;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Title {
+    grid-column: 2 / 3;
+    justify-self: center;
+    color: #F4FFE0;
+    text-shadow: 1px 4px 4px #000000;
+    font-size: 72px;
+    line-height: 107px;
+}

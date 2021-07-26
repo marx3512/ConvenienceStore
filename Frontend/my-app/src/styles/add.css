@@ -1,0 +1,52 @@
+form {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    color: #F4FFE0;
+    text-shadow: 1px 4px 4px #000000;
+    font-size: 40px;
+    line-height: 107px;
+
+    background-color: #B7EF9C;
+
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    align-items: center;
+}
+
+button {
+    grid-column: 2 / 3;
+    justify-self: center;
+
+    background-color: #88F159;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 14px 40px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Oswald;
+    color: #F4FFE0;
+    text-shadow: 1px 4px 4px #000000;
+}
+
+.AppAdd {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.Title {
+    grid-column: 2 / 3;
+}
+
+.Input {
+    font-family: Oswald;
+    font-size: 50px;
+
+    border: 20px thick #B7EF9C;
+    
+}
+
+.File {
+    justify-self: start;
+}

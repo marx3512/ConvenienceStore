@@ -6,7 +6,7 @@ body {
 .App {
     display: grid;
     grid-template-columns: 1fr 35px 2fr 35px 1fr;
-    grid-template-rows: 1fr 0.5fr 2fr;
+    grid-template-rows: 150px 0.5fr 2fr;
 }
 
 .Title {
@@ -22,7 +22,7 @@ body {
     grid-column: 5 / 6;
     justify-self: center;
     border: 5px solid #81E2E6;
-    padding: 10px 10px;
+    padding: 0px 10px;
     margin-top: 20px;
     box-shadow: 10px 10px 11px #000000;
     
@@ -30,6 +30,8 @@ body {
     text-shadow: 1px 4px 4px #000000;
     font-size: 50px;
     line-height: 107px;
+
+    text-decoration: none;
 }
 
 .ShowItens {
